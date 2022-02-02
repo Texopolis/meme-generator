@@ -1,7 +1,6 @@
 import './App.css';
 import Header from './components/header'
 import Meme from './components/meme'
-import MemeContent from './components/memeContent'
 
 function App() {
   return (
@@ -10,7 +9,6 @@ function App() {
         <Header />
         <div className="content">
           <Meme />
-          <MemeContent />
         </div>
       </div>
     </div>
